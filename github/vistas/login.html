@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   
+            <title>ACCESO</title>
+            <meta name="viewport" content="width-device-width,user-scalable-yes, initial scale=1.0, maximun-scale=3.0, minimun-scale= 1.0,">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">     
+     
+     <link rel="stylesheet" href="vistas/css/estilos.css"> 
+   
+   </head> 
+   <body class="cuerpo"> 
+ 
+         <form class="formulario" action="" method="POST">
+          
+         <img class="avatar" src="vistas/img/logo.jpg" alt="logo de ista"> 
+          <h1>Registro de Inscripciones </h1h1>
+         <div class="contenedor">
+           
+             <div class="input-contenedor">    
+                
+             <i class="fas fa-user-graduate icon"></i>
+            <input type="text" placeholder="Apellido" name="username" > 
+            
+              </div>
+            
+             <div class="input-contenedor">         
+            <i class="fas fa-unlock-alt icon"></i>
+            <input type="password" placeholder="Clave" name ="password">
+             </div>
+             <input type ="submit" value="Login" class="button">
+                  <p> Inicia sesi&oacuten para poder inscribirte. </p>
+
+                 
+                     <?php 
+                        if (isset($errorLogin)) {
+                         echo '<div class="merror" >'.$errorLogin.'</div>'; 
+                         
+                     }
+                     ?>
+                     
+           </div>
+                 
+        </form>
+   </body>
+    </html>                  

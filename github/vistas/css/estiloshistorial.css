@@ -1,0 +1,94 @@
+.fondohome{
+	
+	background: url(../img/fondohome.jpg);
+	}
+
+.h1{
+	text-align: right;
+	color: #5858FA;
+	font-size: 40px;
+	margin-bottom: 1px;
+}
+
+    #menu{ 
+      background-color: #000; 
+  
+    } 
+      #menu ul{ 
+      list-style: none; 
+      margin: 0; 
+      padding: 0; 
+    } 
+      #menu ul li{ 
+      display: inline-block; 
+    } 
+      #menu ul li a{ 
+      color: white; 
+      display: block; 
+     padding: 20px 20px; 
+      text-decoration: none; 
+    } 
+      #menu ul li a:hover{ 
+      background-color: #42B881; 
+    } 
+  
+.historial-ins{
+	text-decoration: none;
+	color: white;
+	background:#A9A9F5;
+	float: right;
+	font-size: 20px;
+	padding: 5px;
+	 border-radius: 5px;
+}
+.cerrar-sesion{
+	color: white;
+	background: #A9A9F5;
+    float: right;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+  
+}
+.input-group{
+
+	padding: 10px;
+	border:none;
+	margin-right:30%;
+}
+#datos{
+	width: 100%;
+	padding: 5px;
+	border: 1px solid grey;
+	font-size: 25;
+
+	
+}
+.formulario{
+
+	background: #A5BEE1;
+ 	margin-top: 50px;
+ 	padding: 3px;
+ 	border :4px dotted blue ;
+ 	margin: 100px;
+
+}
+#select2lista{
+margin-left: 10px;
+ 	
+}
+#btn-submit{
+	border: none;
+	width: 15%;
+	color: white; 
+	font-size: 20px;
+	background: #1a2537;
+	padding: 15px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#btn-submit: hover{
+	background: #B349EC
+}
+
+

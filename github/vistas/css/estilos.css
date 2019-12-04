@@ -1,0 +1,139 @@
+.cuerpo{
+	font-family: Arial. Helvetica; sans-serif;
+	margin: 0;
+	/*background-image:  url( ../img/lentes1.jpg);
+ 	background-position:center center;
+ 	background-repeat:no-repeat;
+	background-size:100%;*/
+	background: url(../img/lentes1.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+	/*background-attachment: fixed;
+	height:100vh;
+	*/
+
+}
+/* para la imagen
+ ancho máximo: 100%; 
+  bloqueo de pantalla;
+  altura: auto;*/
+{
+box-sizing :border-box;
+}
+.contenedor{ 
+   width: 100%; 
+   padding: 15px;
+   /*margin-top: 
+*/  }
+ .formulario{
+ 	background: #a5bee1;
+ 	margin-top: 150px;
+ 	padding: 3px;
+ 	border :  ;
+ 	height:35%;
+ }
+ .avatar{
+
+ 	width: 100px;
+ 	height: 90px;
+ 	border-radius: 50%;
+ 	position: absolute;
+ 	top: 100px;
+ 	margin-bottom: 15px;
+ 	left: calc(50% - 50px);
+ }
+h1{
+	text-align: center;
+	color: #la2537;
+	font-size: 40px;
+
+}
+
+input[type="text"],
+input[type="password"]{
+	font-size: 20px;
+	width: 85%;
+	padding: 10px;
+	border: none;
+}
+.input-contenedor{
+	position: 1px;
+	margin-bottom: 15px;
+	border: 1px solid #375ff0;
+	width: 89%;
+	color: #999;
+	padding: 10px;
+
+}
+.icon{
+	min-width: 20px;
+	text-align:center;
+	color: blue; 
+	margin-left: none;
+}
+.button{
+	border: none;
+	width: 50%;
+	color: white; 
+	font-size: 20px;
+	background: #1a2537;
+	padding: 15px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.button:hover {
+	background: blue;
+
+}
+p{
+	text-align: center;
+	font-weight: 200;
+	font-size: 20px;
+}
+@media(min-width: 768px)
+{
+	.formulario{
+		margin: auto;
+		width: 500px;
+		margin-top: 150px;
+		border-radius: 2%;
+	}
+}
+.merror{
+	font-size: 25px;
+	color:#913059; 
+	text-align: red;
+	text-decoration: underline;
+	background-size: #EC7849;
+	 text-align: left;
+	
+}
+//css de mensaje de inscripcion correcta
+.mensaje-exito{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje-exito h1{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mensaje-exito a{
+    display: block;
+    padding: 10px 30px;
+    background: #4091EC;
+    text-decoration: none;
+    color: #fff;
+}
+
+.mensaje-exito a:hover{
+    background: #3371B6;
+}
